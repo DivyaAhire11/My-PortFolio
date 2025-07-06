@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #463f3a;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle-portion{
+       height: 250px;
+       width: 400px;
+       /* position: absolute; */
+       z-index: 11;
+       /* background-color: red; */
+       
+}
+.img2025{
+    /* background-color:; */
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: -25px;
+    left: 200px;
+    object-fit: cover;
+
+}
+#upperText{
+    font-size: 3rem;
+    color: #ffb703;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    transform: rotate(-30deg);
+    /* margin: 10px 20px; */
+   
+}
+.main-heading{
+    
+     height: 30vmin;
+     width: 70vmin;
+     /* position: relative; */
+      display: flex;
+      flex-wrap: wrap; 
+    
+
+}
+.portfolio-text{
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 0.9;
+     
+   
+}
+.and-text{
+    font-size: 2.5rem;
+    margin: -15px 10px;
+    
+}
+.resume-text{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    margin-top: -10px;
+    
+}
+.star{
+    position: absolute;
+    right: 33%;
+    bottom: 30%;
+    font-size: 3em;
+}
+#lowerText{
+    font-size: 1rem;
+    position: absolute;
+     margin: 20px;
+     text-transform: capitalize;
+     color: #adb5bd;
+     letter-spacing: 2px;
+    
+}
+.shadow1{
+    height: 25vh;
+    width: 50vw;
+    position: absolute;
+    top: -15px;
+    background-color: yellow;
+    filter: blur(120px);
+    z-index: 1;
+}
+
+.shadow2{
+    height: 35vh;
+    width: 50vw;
+    position: absolute;
+    bottom: -5px;
+    background-color:#b5179e;
+    filter: blur(120px);
+    z-index: 1;
+}
+.circle1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    left:-50px;
+    border-radius: 50%;
+    border: 20px solid purple;
+}
+.circle2{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: -100px;
+    right:-100px;
+    border-radius: 50%;
+    border: 20px solid yellow;
+}
+
+
+
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #055206;
+}
