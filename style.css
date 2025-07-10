@@ -26,14 +26,11 @@
  .middle-portion {
      height: 250px;
      width: 400px;
-     /* position: absolute; */
      z-index: 11;
-     /* background-color: red; */
 
  }
 
  .img2025 {
-     /* background-color:; */
      height: 150px;
      width: 130px;
      position: absolute;
